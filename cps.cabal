@@ -1,0 +1,28 @@
+name:              cps
+version:           1.0
+Build-Type:        Simple
+cabal-version:     >= 1.10
+
+executable cps
+  main-is:         Cps.hs
+  hs-source-dirs:  src
+  default-language:Haskell2010
+  build-depends:   base,
+                   cps
+
+library
+  ghc-options:     -Wall
+  exposed-modules: Cps
+  hs-source-dirs:  src
+  default-language:Haskell2010
+  build-depends:   base
+
+
+test-suite spec
+  main-is:         Spec.hs
+  type:            exitcode-stdio-1.0
+  hs-source-dirs:  test
+  default-language:Haskell2010
+  build-depends:   base,
+                   hspec,
+                   cps
