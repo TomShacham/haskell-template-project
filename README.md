@@ -8,4 +8,4 @@ Loljk love you haskelllllll
 
 #important
 
-The name of this project is cps, so replace it with whatever name you want, and the respective files in the .cabal file which tells cabal how to do it's fucking job ;) cool
+The name of this project is cps, so replace it with whatever name you want, and the respective files in the .cabal file which tells cabal how to do its fucking job ;) cool
